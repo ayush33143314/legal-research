@@ -1,0 +1,352 @@
+Added 'full_text' field to ES mapping
+Processing 77 years with 4 workers...
+
+Years processed:   0%|          | 0/77 [00:00<?, ?it/s]Years processed:   1%|▏         | 1/77 [00:03<05:02,  3.98s/it]Years processed:   1%|▏         | 1/77 [00:03<05:02,  3.98s/it, failed=0, indexed=43]Years processed:   3%|▎         | 2/77 [00:04<02:41,  2.15s/it, failed=0, indexed=43]Years processed:   3%|▎         | 2/77 [00:04<02:41,  2.15s/it, failed=0, indexed=109]Years processed:   4%|▍         | 3/77 [00:05<01:53,  1.53s/it, failed=0, indexed=109]Years processed:   4%|▍         | 3/77 [00:05<01:53,  1.53s/it, failed=0, indexed=215]Years processed:   5%|▌         | 4/77 [00:07<02:02,  1.68s/it, failed=0, indexed=215]Years processed:   5%|▌         | 4/77 [00:07<02:02,  1.68s/it, failed=0, indexed=347]Years processed:   6%|▋         | 5/77 [00:09<02:16,  1.89s/it, failed=0, indexed=347]Years processed:   6%|▋         | 5/77 [00:09<02:16,  1.89s/it, failed=0, indexed=430]Years processed:   8%|▊         | 6/77 [00:12<02:40,  2.26s/it, failed=0, indexed=430]Years processed:   8%|▊         | 6/77 [00:12<02:40,  2.26s/it, failed=0, indexed=604]Years processed:   9%|▉         | 7/77 [00:15<02:37,  2.25s/it, failed=0, indexed=604]Years processed:   9%|▉         | 7/77 [00:15<02:37,  2.25s/it, failed=0, indexed=781]Years processed:  10%|█         | 8/77 [00:15<01:54,  1.66s/it, failed=0, indexed=781]Years processed:  10%|█         | 8/77 [00:15<01:54,  1.66s/it, failed=0, indexed=919]Years processed:  12%|█▏        | 9/77 [00:24<04:22,  3.87s/it, failed=0, indexed=919]Years processed:  12%|█▏        | 9/77 [00:24<04:22,  3.87s/it, failed=0, indexed=1129]Years processed:  13%|█▎        | 10/77 [00:32<05:55,  5.31s/it, failed=0, indexed=1129]Years processed:  13%|█▎        | 10/77 [00:32<05:55,  5.31s/it, failed=0, indexed=1422]Years processed:  14%|█▍        | 11/77 [00:37<05:42,  5.19s/it, failed=0, indexed=1422]Years processed:  14%|█▍        | 11/77 [00:37<05:42,  5.19s/it, failed=0, indexed=1804]Years processed:  16%|█▌        | 12/77 [00:49<07:53,  7.28s/it, failed=0, indexed=1804]Years processed:  16%|█▌        | 12/77 [00:49<07:53,  7.28s/it, failed=0, indexed=2337]Years processed:  17%|█▋        | 13/77 [01:11<12:25, 11.65s/it, failed=0, indexed=2337]Years processed:  17%|█▋        | 13/77 [01:11<12:25, 11.65s/it, failed=0, indexed=2780]Years processed:  18%|█▊        | 14/77 [01:13<09:08,  8.71s/it, failed=0, indexed=2780]Years processed:  18%|█▊        | 14/77 [01:13<09:08,  8.71s/it, failed=0, indexed=3317]Years processed:  19%|█▉        | 15/77 [01:17<07:26,  7.20s/it, failed=0, indexed=3317]Years processed:  19%|█▉        | 15/77 [01:17<07:26,  7.20s/it, failed=0, indexed=4015]Years processed:  21%|██        | 16/77 [01:17<05:15,  5.17s/it, failed=0, indexed=4015]Years processed:  21%|██        | 16/77 [01:17<05:15,  5.17s/it, failed=0, indexed=4597]Years processed:  22%|██▏       | 17/77 [01:33<08:17,  8.30s/it, failed=0, indexed=4597]Years processed:  22%|██▏       | 17/77 [01:33<08:17,  8.30s/it, failed=0, indexed=5064]Years processed:  23%|██▎       | 18/77 [01:34<05:59,  6.10s/it, failed=0, indexed=5064]Years processed:  23%|██▎       | 18/77 [01:34<05:59,  6.10s/it, failed=0, indexed=5511]Years processed:  25%|██▍       | 19/77 [01:41<06:14,  6.45s/it, failed=0, indexed=5511]Years processed:  25%|██▍       | 19/77 [01:41<06:14,  6.45s/it, failed=0, indexed=6012]Years processed:  26%|██▌       | 20/77 [01:45<05:32,  5.83s/it, failed=0, indexed=6012]Years processed:  26%|██▌       | 20/77 [01:45<05:32,  5.83s/it, failed=0, indexed=6592]Years processed:  27%|██▋       | 21/77 [01:57<06:59,  7.49s/it, failed=0, indexed=6592]Years processed:  27%|██▋       | 21/77 [01:57<06:59,  7.49s/it, failed=0, indexed=7112]Years processed:  29%|██▊       | 22/77 [02:02<06:23,  6.97s/it, failed=0, indexed=7112]Years processed:  29%|██▊       | 22/77 [02:02<06:23,  6.97s/it, failed=0, indexed=7662]Years processed:  30%|██▉       | 23/77 [02:07<05:36,  6.22s/it, failed=0, indexed=7662]Years processed:  30%|██▉       | 23/77 [02:07<05:36,  6.22s/it, failed=0, indexed=8154]Years processed:  31%|███       | 24/77 [02:13<05:34,  6.32s/it, failed=0, indexed=8154]Years processed:  31%|███       | 24/77 [02:13<05:34,  6.32s/it, failed=0, indexed=8629]Years processed:  32%|███▏      | 25/77 [02:21<05:51,  6.76s/it, failed=0, indexed=8629]Years processed:  32%|███▏      | 25/77 [02:21<05:51,  6.76s/it, failed=0, indexed=9083]Years processed:  34%|███▍      | 26/77 [02:27<05:29,  6.46s/it, failed=0, indexed=9083]Years processed:  34%|███▍      | 26/77 [02:27<05:29,  6.46s/it, failed=0, indexed=9414]Years processed:  35%|███▌      | 27/77 [02:32<05:00,  6.01s/it, failed=0, indexed=9414]Years processed:  35%|███▌      | 27/77 [02:32<05:00,  6.01s/it, failed=0, indexed=9942]Years processed:  36%|███▋      | 28/77 [02:36<04:22,  5.36s/it, failed=0, indexed=9942]Years processed:  36%|███▋      | 28/77 [02:36<04:22,  5.36s/it, failed=0, indexed=10492]Years processed:  38%|███▊      | 29/77 [02:43<04:39,  5.81s/it, failed=0, indexed=10492]Years processed:  38%|███▊      | 29/77 [02:43<04:39,  5.81s/it, failed=0, indexed=10861]Years processed:  39%|███▉      | 30/77 [02:54<05:55,  7.57s/it, failed=0, indexed=10861]Years processed:  39%|███▉      | 30/77 [02:54<05:55,  7.57s/it, failed=0, indexed=11287]Years processed:  40%|████      | 31/77 [02:57<04:38,  6.06s/it, failed=0, indexed=11287]Years processed:  40%|████      | 31/77 [02:57<04:38,  6.06s/it, failed=0, indexed=11439]Years processed:  42%|████▏     | 32/77 [02:57<03:17,  4.39s/it, failed=0, indexed=11439]Years processed:  42%|████▏     | 32/77 [02:57<03:17,  4.39s/it, failed=0, indexed=11758]Years processed:  43%|████▎     | 33/77 [03:00<02:56,  4.01s/it, failed=0, indexed=11758]Years processed:  43%|████▎     | 33/77 [03:00<02:56,  4.01s/it, failed=0, indexed=12162]Years processed:  44%|████▍     | 34/77 [03:11<04:16,  5.97s/it, failed=0, indexed=12162]Years processed:  44%|████▍     | 34/77 [03:11<04:16,  5.97s/it, failed=0, indexed=12411]Years processed:  45%|████▌     | 35/77 [03:15<03:49,  5.46s/it, failed=0, indexed=12411]Years processed:  45%|████▌     | 35/77 [03:15<03:49,  5.46s/it, failed=0, indexed=12692]Years processed:  47%|████▋     | 36/77 [03:17<02:58,  4.35s/it, failed=0, indexed=12692]Years processed:  47%|████▋     | 36/77 [03:17<02:58,  4.35s/it, failed=0, indexed=13014]Years processed:  48%|████▊     | 37/77 [03:23<03:10,  4.77s/it, failed=0, indexed=13014]Years processed:  48%|████▊     | 37/77 [03:23<03:10,  4.77s/it, failed=0, indexed=13398]Years processed:  49%|████▉     | 38/77 [03:36<04:44,  7.30s/it, failed=0, indexed=13398]Years processed:  49%|████▉     | 38/77 [03:36<04:44,  7.30s/it, failed=0, indexed=13853]Years processed:  51%|█████     | 39/77 [03:40<03:59,  6.30s/it, failed=0, indexed=13853]Years processed:  51%|█████     | 39/77 [03:40<03:59,  6.30s/it, failed=0, indexed=14251]Years processed:  52%|█████▏    | 40/77 [03:48<04:13,  6.84s/it, failed=0, indexed=14251]Years processed:  52%|█████▏    | 40/77 [03:48<04:13,  6.84s/it, failed=0, indexed=14652]Years processed:  53%|█████▎    | 41/77 [03:49<02:58,  4.96s/it, failed=0, indexed=14652]Years processed:  53%|█████▎    | 41/77 [03:49<02:58,  4.96s/it, failed=0, indexed=15172]Years processed:  55%|█████▍    | 42/77 [03:58<03:35,  6.17s/it, failed=0, indexed=15172]Years processed:  55%|█████▍    | 42/77 [03:58<03:35,  6.17s/it, failed=0, indexed=15522]Years processed:  56%|█████▌    | 43/77 [04:03<03:25,  6.05s/it, failed=0, indexed=15522]Years processed:  56%|█████▌    | 43/77 [04:03<03:25,  6.05s/it, failed=0, indexed=15884]Years processed:  57%|█████▋    | 44/77 [04:11<03:40,  6.68s/it, failed=0, indexed=15884]Years processed:  57%|█████▋    | 44/77 [04:11<03:40,  6.68s/it, failed=0, indexed=16281]Years processed:  58%|█████▊    | 45/77 [04:24<04:26,  8.33s/it, failed=0, indexed=16281]Years processed:  58%|█████▊    | 45/77 [04:24<04:26,  8.33s/it, failed=0, indexed=16905]Years processed:  60%|█████▉    | 46/77 [04:47<06:42, 12.99s/it, failed=0, indexed=16905]Years processed:  60%|█████▉    | 46/77 [04:47<06:42, 12.99s/it, failed=0, indexed=17822]Years processed:  61%|██████    | 47/77 [04:48<04:37,  9.27s/it, failed=0, indexed=17822]Years processed:  61%|██████    | 47/77 [04:48<04:37,  9.27s/it, failed=0, indexed=18316]Years processed:  62%|██████▏   | 48/77 [04:53<03:55,  8.11s/it, failed=0, indexed=18316]Years processed:  62%|██████▏   | 48/77 [04:53<03:55,  8.11s/it, failed=0, indexed=19162]Years processed:  64%|██████▎   | 49/77 [05:17<05:58, 12.79s/it, failed=0, indexed=19162]Years processed:  64%|██████▎   | 49/77 [05:17<05:58, 12.79s/it, failed=0, indexed=19734]MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+MuPDF error: library error: FT_New_Memory_Face(MKVHEP+HiddenHorzOCR): unknown file format
+
+Years processed:  65%|██████▍   | 50/77 [05:20<04:24,  9.78s/it, failed=0, indexed=19734]Years processed:  65%|██████▍   | 50/77 [05:20<04:24,  9.78s/it, failed=0, indexed=20344]Years processed:  66%|██████▌   | 51/77 [05:25<03:38,  8.41s/it, failed=0, indexed=20344]Years processed:  66%|██████▌   | 51/77 [05:25<03:38,  8.41s/it, failed=0, indexed=20957]Years processed:  68%|██████▊   | 52/77 [05:47<05:12, 12.49s/it, failed=0, indexed=20957]Years processed:  68%|██████▊   | 52/77 [05:47<05:12, 12.49s/it, failed=0, indexed=22493]Years processed:  69%|██████▉   | 53/77 [05:49<03:42,  9.29s/it, failed=0, indexed=22493]Years processed:  69%|██████▉   | 53/77 [05:49<03:42,  9.29s/it, failed=0, indexed=23073]Years processed:  70%|███████   | 54/77 [06:07<04:34, 11.94s/it, failed=0, indexed=23073]Years processed:  70%|███████   | 54/77 [06:07<04:34, 11.94s/it, failed=0, indexed=23825]Years processed:  71%|███████▏  | 55/77 [06:10<03:20,  9.12s/it, failed=0, indexed=23825]Years processed:  71%|███████▏  | 55/77 [06:10<03:20,  9.12s/it, failed=0, indexed=24554]Years processed:  73%|███████▎  | 56/77 [06:24<03:47, 10.83s/it, failed=0, indexed=24554]Years processed:  73%|███████▎  | 56/77 [06:24<03:47, 10.83s/it, failed=0, indexed=25185]Years processed:  74%|███████▍  | 57/77 [07:01<06:11, 18.60s/it, failed=0, indexed=25185]Years processed:  74%|███████▍  | 57/77 [07:01<06:11, 18.60s/it, failed=0, indexed=26214]Years processed:  75%|███████▌  | 58/77 [07:47<08:29, 26.82s/it, failed=0, indexed=26214]Years processed:  75%|███████▌  | 58/77 [07:47<08:29, 26.82s/it, failed=0, indexed=27539]Years processed:  77%|███████▋  | 59/77 [08:10<07:39, 25.53s/it, failed=0, indexed=27539]Years processed:  77%|███████▋  | 59/77 [08:10<07:39, 25.53s/it, failed=0, indexed=28446]Years processed:  78%|███████▊  | 60/77 [08:11<05:11, 18.34s/it, failed=0, indexed=28446]Years processed:  78%|███████▊  | 60/77 [08:11<05:11, 18.34s/it, failed=0, indexed=29772]Years processed:  79%|███████▉  | 61/77 [08:20<04:08, 15.52s/it, failed=0, indexed=29772]Years processed:  79%|███████▉  | 61/77 [08:20<04:08, 15.52s/it, failed=0, indexed=31280]Years processed:  81%|████████  | 62/77 [08:52<05:06, 20.42s/it, failed=0, indexed=31280]Years processed:  81%|████████  | 62/77 [08:52<05:06, 20.42s/it, failed=0, indexed=32128]Years processed:  82%|████████▏ | 63/77 [08:58<03:43, 15.95s/it, failed=0, indexed=32128]Years processed:  82%|████████▏ | 63/77 [08:58<03:43, 15.95s/it, failed=0, indexed=32751]Years processed:  83%|████████▎ | 64/77 [09:19<03:49, 17.63s/it, failed=0, indexed=32751]Years processed:  83%|████████▎ | 64/77 [09:19<03:49, 17.63s/it, failed=0, indexed=33546]Years processed:  84%|████████▍ | 65/77 [09:21<02:33, 12.81s/it, failed=0, indexed=33546]Years processed:  84%|████████▍ | 65/77 [09:21<02:33, 12.81s/it, failed=0, indexed=34400]Years processed:  86%|████████▌ | 66/77 [09:39<02:38, 14.42s/it, failed=0, indexed=34400]Years processed:  86%|████████▌ | 66/77 [09:39<02:38, 14.42s/it, failed=0, indexed=34989]Years processed:  87%|████████▋ | 67/77 [09:48<02:07, 12.73s/it, failed=0, indexed=34989]Years processed:  87%|████████▋ | 67/77 [09:48<02:07, 12.73s/it, failed=0, indexed=35750]Years processed:  88%|████████▊ | 68/77 [10:12<02:25, 16.16s/it, failed=0, indexed=35750]Years processed:  88%|████████▊ | 68/77 [10:12<02:25, 16.16s/it, failed=0, indexed=36545]Years processed:  90%|████████▉ | 69/77 [10:15<01:37, 12.18s/it, failed=0, indexed=36545]Years processed:  90%|████████▉ | 69/77 [10:15<01:37, 12.18s/it, failed=0, indexed=37277]Years processed:  91%|█████████ | 70/77 [10:28<01:27, 12.45s/it, failed=0, indexed=37277]Years processed:  91%|█████████ | 70/77 [10:28<01:27, 12.45s/it, failed=0, indexed=37848]Years processed:  92%|█████████▏| 71/77 [10:54<01:39, 16.52s/it, failed=0, indexed=37848]Years processed:  92%|█████████▏| 71/77 [10:54<01:39, 16.52s/it, failed=0, indexed=38898]Years processed:  94%|█████████▎| 72/77 [11:03<01:11, 14.29s/it, failed=0, indexed=38898]Years processed:  94%|█████████▎| 72/77 [11:03<01:11, 14.29s/it, failed=0, indexed=39606]Years processed:  95%|█████████▍| 73/77 [11:27<01:09, 17.28s/it, failed=0, indexed=39606]Years processed:  95%|█████████▍| 73/77 [11:27<01:09, 17.28s/it, failed=0, indexed=40460]Years processed:  96%|█████████▌| 74/77 [11:27<00:51, 17.28s/it, failed=0, indexed=40478]Years processed:  97%|█████████▋| 75/77 [11:30<00:20, 10.03s/it, failed=0, indexed=40478]Years processed:  97%|█████████▋| 75/77 [11:30<00:20, 10.03s/it, failed=0, indexed=41495]Years processed:  99%|█████████▊| 76/77 [11:39<00:09,  9.77s/it, failed=0, indexed=41495]Years processed:  99%|█████████▊| 76/77 [11:39<00:09,  9.77s/it, failed=0, indexed=42277]Years processed: 100%|██████████| 77/77 [11:41<00:00,  7.53s/it, failed=0, indexed=42277]Years processed: 100%|██████████| 77/77 [11:41<00:00,  7.53s/it, failed=0, indexed=43035]Years processed: 100%|██████████| 77/77 [11:41<00:00,  9.10s/it, failed=0, indexed=43035]
+
+Done. Total with full_text: 38,026 | Failed: 0
